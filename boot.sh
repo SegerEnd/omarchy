@@ -16,6 +16,7 @@ ansi_art='                 ▄▄▄
 
 clear
 echo -e "\n$ansi_art\n"
+echo -e "\nCustom Omarchy Installer from SegerEnd\n"
 
 sudo pacman -Syu --noconfirm --needed git
 
