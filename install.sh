@@ -9,6 +9,8 @@ export OMARCHY_INSTALL="$OMARCHY_PATH/install"
 export OMARCHY_INSTALL_LOG_FILE="/var/log/omarchy-install.log"
 export PATH="$OMARCHY_PATH/bin:$PATH"
 
+echo -e "\nSegerEnd custom Omarchy installation\n"
+
 # Install
 source "$OMARCHY_INSTALL/helpers/all.sh"
 source "$OMARCHY_INSTALL/preflight/all.sh"
